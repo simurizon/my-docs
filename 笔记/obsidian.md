@@ -5,3 +5,20 @@
 
 备份可以用Github或者Gitee
 
+## DataView
+~~~dataview
+Table file.ctime as 创建日期,file.mtime As 修改日期
+from #trello
+sort file.day desc
+~~~
+
+可以使用list table 
+from
+group by
+faltten
+
+~~~dataview
+Table status,flag,file.ctime
+From #project-todo
+~~~
+
